@@ -1,0 +1,10 @@
+program p
+var
+  integer x;
+begin
+  if x < 10
+    write(x)
+  else
+    write(0)
+  fi
+end.

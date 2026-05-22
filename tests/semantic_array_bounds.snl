@@ -1,0 +1,7 @@
+program p
+var
+  array [1..3] of integer a;
+  integer x;
+begin
+  x := a[4]
+end.

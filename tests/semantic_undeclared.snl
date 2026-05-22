@@ -1,0 +1,6 @@
+program p
+var
+  integer x;
+begin
+  y := x
+end.

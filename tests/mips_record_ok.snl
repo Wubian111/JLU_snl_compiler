@@ -1,0 +1,17 @@
+program p
+type
+  pair = record
+    integer first;
+    array [1..2] of integer nums;
+    integer last;
+  end;
+var
+  pair r;
+  integer x;
+begin
+  read(x);
+  r.first := x;
+  r.nums[1] := r.first + 2;
+  r.last := r.nums[1] * 3;
+  write(r.last)
+end.

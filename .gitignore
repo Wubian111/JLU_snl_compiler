@@ -1,0 +1,11 @@
+# Build artifacts
+/build/
+/output/
+/InstructionStatistics.txt
+
+# Editor settings
+/.vscode/
+
+# OS files
+Thumbs.db
+Desktop.ini

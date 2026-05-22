@@ -1,0 +1,12 @@
+program p
+var
+  integer x;
+procedure q(var integer a);
+begin
+  a := a + 1
+end
+begin
+  read(x);
+  q(x);
+  write(x)
+end.

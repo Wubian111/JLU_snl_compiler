@@ -1,0 +1,17 @@
+{ SNL 测试程序 }
+program example
+  type
+    myint = integer;
+  var
+    myint x, y, z;
+  begin
+    read(x);
+    read(y);
+    if x < y then
+      z := x + y
+    else
+      z := x - y
+    fi;
+    write(z)
+  end
+.
